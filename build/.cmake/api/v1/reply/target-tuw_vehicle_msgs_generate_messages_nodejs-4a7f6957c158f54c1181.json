@@ -1,0 +1,280 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"generate_messages",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"/home/nazha/sim_ws/build/tuw_msgs/tuw_vehicle_msgs/cmake/tuw_vehicle_msgs-genmsg.cmake",
+			"/opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake",
+			"tuw_msgs/tuw_vehicle_msgs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 81,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 307,
+				"parent" : 1
+			},
+			{
+				"file" : 0,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 460,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 654,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 651,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 483,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 467,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 473,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 481,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 469,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 471,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 477,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 475,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 479,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 485,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "geometry_msgs_generate_messages_nodejs::@6ced36a595a60bf5dbae"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "std_msgs_generate_messages_nodejs::@6ced36a595a60bf5dbae"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "_tuw_vehicle_msgs_generate_messages_check_deps_TrackMarking::@a5183c8bf77b1686fb67"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "_tuw_vehicle_msgs_generate_messages_check_deps_Wheelspeeds::@a5183c8bf77b1686fb67"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "_tuw_vehicle_msgs_generate_messages_check_deps_ChassisState::@a5183c8bf77b1686fb67"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "_tuw_vehicle_msgs_generate_messages_check_deps_Track::@a5183c8bf77b1686fb67"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "_tuw_vehicle_msgs_generate_messages_check_deps_AutonomousState::@a5183c8bf77b1686fb67"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "_tuw_vehicle_msgs_generate_messages_check_deps_RWDControl::@a5183c8bf77b1686fb67"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "_tuw_vehicle_msgs_generate_messages_check_deps_RWDMotion::@a5183c8bf77b1686fb67"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "_tuw_vehicle_msgs_generate_messages_check_deps_BatteryState::@a5183c8bf77b1686fb67"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "_tuw_vehicle_msgs_generate_messages_check_deps_RWDKinCmd::@a5183c8bf77b1686fb67"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "_tuw_vehicle_msgs_generate_messages_check_deps_CmdMpcVecVphi::@a5183c8bf77b1686fb67"
+		}
+	],
+	"id" : "tuw_vehicle_msgs_generate_messages_nodejs::@a5183c8bf77b1686fb67",
+	"name" : "tuw_vehicle_msgs_generate_messages_nodejs",
+	"paths" : 
+	{
+		"build" : "tuw_msgs/tuw_vehicle_msgs",
+		"source" : "tuw_msgs/tuw_vehicle_msgs"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "/home/nazha/sim_ws/build/tuw_msgs/tuw_vehicle_msgs/CMakeFiles/tuw_vehicle_msgs_generate_messages_nodejs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/nazha/sim_ws/build/tuw_msgs/tuw_vehicle_msgs/CMakeFiles/tuw_vehicle_msgs_generate_messages_nodejs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/nazha/sim_ws/devel/share/gennodejs/ros/tuw_vehicle_msgs/msg/Wheelspeeds.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/nazha/sim_ws/devel/share/gennodejs/ros/tuw_vehicle_msgs/msg/AutonomousState.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/nazha/sim_ws/devel/share/gennodejs/ros/tuw_vehicle_msgs/msg/RWDControl.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/nazha/sim_ws/devel/share/gennodejs/ros/tuw_vehicle_msgs/msg/ChassisState.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/nazha/sim_ws/devel/share/gennodejs/ros/tuw_vehicle_msgs/msg/BatteryState.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/nazha/sim_ws/devel/share/gennodejs/ros/tuw_vehicle_msgs/msg/RWDMotion.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/nazha/sim_ws/devel/share/gennodejs/ros/tuw_vehicle_msgs/msg/RWDKinCmd.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/nazha/sim_ws/devel/share/gennodejs/ros/tuw_vehicle_msgs/msg/Track.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/nazha/sim_ws/devel/share/gennodejs/ros/tuw_vehicle_msgs/msg/TrackMarking.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/nazha/sim_ws/devel/share/gennodejs/ros/tuw_vehicle_msgs/msg/CmdMpcVecVphi.js.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

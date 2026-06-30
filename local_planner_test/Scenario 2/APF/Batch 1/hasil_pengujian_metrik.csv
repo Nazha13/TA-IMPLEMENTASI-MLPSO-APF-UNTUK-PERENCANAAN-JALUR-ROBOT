@@ -1,0 +1,21 @@
+Scenario,Trial,Status,Duration (s),Min Clearance (m),Path Length (m),Avg CPU (%),Peak RAM (MB)
+Scen2_APF,1,Success_Direct,31.00,0.242,11.05,7.4,32.6
+Scen2_APF,2,Success_Direct,30.40,0.239,11.03,7.5,33.6
+Scen2_APF,3,Success_Direct,30.80,0.222,11.06,7.4,34.5
+Scen2_APF,4,Success_Direct,33.00,0.250,11.24,7.4,34.5
+Scen2_APF,5,Success_Direct,30.80,0.238,11.03,7.4,34.5
+Scen2_APF,6,Success_Direct,38.80,0.116,11.51,7.3,34.6
+Scen2_APF,7,Success_Direct,37.60,0.109,11.44,7.5,34.6
+Scen2_APF,8,Success_Direct,30.80,0.248,11.06,7.4,34.5
+Scen2_APF,9,Success_Direct,30.80,0.227,11.06,7.5,34.6
+Scen2_APF,10,Success_Direct,38.20,0.100,11.51,7.4,34.6
+Scen2_APF,11,Success_Direct,30.40,0.240,11.04,7.5,34.6
+Scen2_APF,12,Success_Direct,37.80,0.105,11.49,7.4,34.6
+Scen2_APF,13,Success_Direct,30.40,0.237,11.04,7.5,37.6
+Scen2_APF,14,Success_Direct,30.60,0.225,11.05,7.5,34.6
+Scen2_APF,15,Success_Direct,30.80,0.257,11.05,7.4,34.6
+Scen2_APF,16,Success_Direct,31.20,0.250,11.05,7.5,34.6
+Scen2_APF,17,Success_Direct,30.60,0.239,11.03,7.5,34.6
+Scen2_APF,18,Success_Direct,38.00,0.102,11.50,7.4,34.6
+Scen2_APF,19,Success_Direct,30.80,0.223,11.06,7.5,34.6
+Scen2_APF,20,Success_Direct,41.00,0.107,11.80,7.3,34.6

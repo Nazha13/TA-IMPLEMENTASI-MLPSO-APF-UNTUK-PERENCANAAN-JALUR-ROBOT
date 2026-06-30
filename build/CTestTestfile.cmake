@@ -1,0 +1,37 @@
+# CMake generated Testfile for 
+# Source directory: /home/nazha/sim_ws/src
+# Build directory: /home/nazha/sim_ws/build
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs("gtest")
+subdirs("tuw_msgs/tuw_airskin_msgs")
+subdirs("tuw_global_planner/tuw_global_planner")
+subdirs("tuw_msgs/tuw_msgs")
+subdirs("tuw_multi_robot/tuw_multi_robot")
+subdirs("tuw_multi_robot/tuw_multi_robot_demo")
+subdirs("tuw_msgs/tuw_multi_robot_msgs")
+subdirs("tuw_msgs/tuw_object_msgs")
+subdirs("dynamicvoronoi")
+subdirs("map2gazebo")
+subdirs("asr_navigation")
+subdirs("cad")
+subdirs("main_controller")
+subdirs("tuw_msgs/tuw_gazebo_msgs")
+subdirs("tuw_geometry")
+subdirs("tuw_msgs/tuw_geometry_msgs")
+subdirs("tuw_msgs/tuw_local_controller_msgs")
+subdirs("tuw_multi_robot/tuw_multi_robot_goal_generator")
+subdirs("tuw_msgs/tuw_nav_msgs")
+subdirs("tuw_multi_robot/tuw_multi_robot_ctrl")
+subdirs("tuw_multi_robot/tuw_multi_robot_local_behavior_controller")
+subdirs("tuw_msgs/tuw_vehicle_msgs")
+subdirs("tuw_multi_robot/tuw_voronoi_graph")
+subdirs("tuw_multi_robot/tuw_multi_robot_router")
+subdirs("tuw_msgs/tuw_waypoint_to_spline_msgs")
+subdirs("tuw_global_planner/tuw_waypoint_to_spline")
+subdirs("tuw_multi_robot/tuw_multi_robot_rviz")
+subdirs("adaptive_local_planner")
+subdirs("tuw_global_planner/global_planner")
+subdirs("pso_global_planner")
+subdirs("ros_sim")

@@ -1,0 +1,21 @@
+Scenario,Trial,Status,Duration (s),Min Clearance (m),Path Length (m),Avg CPU (%),Peak RAM (MB)
+Scen1_TEB,1,Success_Direct,26.80,0.502,9.99,10.1,88.8
+Scen1_TEB,2,Success_Direct,26.60,0.486,9.93,10.0,90.5
+Scen1_TEB,3,Success_Direct,26.80,0.489,9.97,10.2,92.7
+Scen1_TEB,4,Success_Direct,26.80,0.500,9.98,10.3,92.7
+Scen1_TEB,5,Success_Direct,26.80,0.481,9.98,10.1,92.7
+Scen1_TEB,6,Success_Direct,27.00,0.489,9.99,10.4,92.7
+Scen1_TEB,7,Success_Direct,30.00,0.470,10.27,10.5,92.7
+Scen1_TEB,8,Success_Direct,26.80,0.498,9.98,10.1,92.7
+Scen1_TEB,9,Success_Direct,26.80,0.478,9.98,10.2,93.0
+Scen1_TEB,10,Success_Direct,26.80,0.487,9.99,10.2,93.2
+Scen1_TEB,11,Success_Direct,26.80,0.506,9.98,10.1,93.0
+Scen1_TEB,12,Success_Direct,26.80,0.495,9.99,10.3,93.2
+Scen1_TEB,13,Success_Direct,26.80,0.498,9.99,10.3,93.0
+Scen1_TEB,14,Success_Direct,26.80,0.488,9.97,10.4,93.1
+Scen1_TEB,15,Success_Direct,30.60,0.391,10.41,10.4,93.4
+Scen1_TEB,16,Success_Direct,26.80,0.486,9.97,10.3,93.1
+Scen1_TEB,17,Success_Direct,26.80,0.505,9.98,10.2,93.2
+Scen1_TEB,18,Success_Direct,26.80,0.497,9.97,10.1,93.5
+Scen1_TEB,19,Success_Direct,26.60,0.501,9.94,10.1,93.2
+Scen1_TEB,20,Success_Direct,26.80,0.496,9.98,10.0,93.2

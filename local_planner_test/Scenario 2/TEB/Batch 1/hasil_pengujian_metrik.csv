@@ -1,0 +1,21 @@
+Scenario,Trial,Status,Duration (s),Min Clearance (m),Path Length (m),Avg CPU (%),Peak RAM (MB)
+Scen2_TEB,1,Failed_Timeout,90.00,0.402,12.49,13.7,101.0
+Scen2_TEB,2,Failed_Timeout,90.00,0.407,12.75,14.7,105.2
+Scen2_TEB,3,Success_Direct,34.80,0.369,10.85,17.0,111.5
+Scen2_TEB,4,Success_Direct,50.40,0.364,14.28,17.1,112.2
+Scen2_TEB,5,Failed_Timeout,90.00,0.388,14.30,15.7,115.2
+Scen2_TEB,6,Success_Direct,39.20,0.358,11.50,17.3,115.4
+Scen2_TEB,7,Failed_Timeout,90.00,0.423,12.61,15.1,118.8
+Scen2_TEB,8,Success_Direct,34.80,0.366,11.01,15.5,114.9
+Scen2_TEB,9,Failed_Timeout,90.00,0.349,12.87,16.3,119.3
+Scen2_TEB,10,Failed_Timeout,90.00,0.410,12.70,13.3,118.2
+Scen2_TEB,11,Failed_Timeout,90.00,0.262,12.36,13.1,118.9
+Scen2_TEB,12,Failed_Timeout,90.00,0.391,13.27,13.6,119.3
+Scen2_TEB,13,Failed_Timeout,90.00,0.483,33.23,9.9,119.4
+Scen2_TEB,14,Success_Direct,47.60,0.360,13.01,19.3,119.6
+Scen2_TEB,15,Failed_Timeout,90.00,0.397,12.94,14.6,120.3
+Scen2_TEB,16,Success_Direct,55.60,0.360,14.41,18.7,114.7
+Scen2_TEB,17,Failed_Timeout,90.00,0.396,12.95,13.8,117.1
+Scen2_TEB,18,Failed_Timeout,90.00,0.388,14.73,17.0,114.9
+Scen2_TEB,19,Success_Direct,46.80,0.361,13.79,17.1,114.9
+Scen2_TEB,20,Failed_Timeout,90.00,0.176,12.54,13.5,114.5

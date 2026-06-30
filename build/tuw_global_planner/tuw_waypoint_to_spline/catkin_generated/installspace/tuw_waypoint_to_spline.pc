@@ -1,0 +1,8 @@
+prefix=/home/nazha/sim_ws/install
+
+Name: tuw_waypoint_to_spline
+Description: Description of tuw_waypoint_to_spline
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -ltuw_path_to_spline -ltuw_path_to_spline_node
+Requires: roscpp rospy dynamic_reconfigure

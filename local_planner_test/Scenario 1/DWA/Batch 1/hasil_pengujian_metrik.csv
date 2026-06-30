@@ -1,0 +1,21 @@
+Scenario,Trial,Status,Duration (s),Min Clearance (m),Path Length (m),Avg CPU (%),Peak RAM (MB)
+Scen1_DWA,1,Success_Direct,28.60,0.489,10.25,12.3,37.1
+Scen1_DWA,2,Success_Direct,29.40,0.518,10.24,12.0,38.0
+Scen1_DWA,3,Success_Direct,28.80,0.529,10.21,12.3,38.6
+Scen1_DWA,4,Success_Direct,28.60,0.506,10.22,12.3,38.6
+Scen1_DWA,5,Success_Direct,29.60,0.519,10.22,12.1,38.6
+Scen1_DWA,6,Success_Direct,29.60,0.494,10.28,12.2,38.8
+Scen1_DWA,7,Success_Direct,30.00,0.523,10.29,12.2,38.6
+Scen1_DWA,8,Success_Direct,29.80,0.505,10.25,12.1,38.8
+Scen1_DWA,9,Success_Direct,30.00,0.499,10.28,12.0,38.6
+Scen1_DWA,10,Success_Direct,29.40,0.519,10.22,12.2,38.6
+Scen1_DWA,11,Success_Direct,30.00,0.516,10.22,12.2,38.6
+Scen1_DWA,12,Success_Direct,29.60,0.527,10.27,12.1,38.8
+Scen1_DWA,13,Success_Direct,28.80,0.533,10.21,12.3,38.8
+Scen1_DWA,14,Success_Direct,29.80,0.225,10.24,12.2,38.8
+Scen1_DWA,15,Success_Direct,28.80,0.532,10.21,12.3,38.8
+Scen1_DWA,16,Success_Direct,29.20,0.536,10.22,12.2,38.8
+Scen1_DWA,17,Success_Direct,29.20,0.519,10.22,12.1,39.0
+Scen1_DWA,18,Success_Direct,28.60,0.524,10.14,12.3,38.8
+Scen1_DWA,19,Success_Direct,29.20,0.519,10.19,12.3,38.9
+Scen1_DWA,20,Success_Direct,29.40,0.529,10.22,12.1,39.1

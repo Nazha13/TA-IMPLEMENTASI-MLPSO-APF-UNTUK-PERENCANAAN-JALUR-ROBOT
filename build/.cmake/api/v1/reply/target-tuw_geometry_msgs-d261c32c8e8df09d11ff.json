@@ -1,0 +1,357 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/home/nazha/sim_ws/devel/lib/libtuw_geometry_msgs.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_install",
+			"install",
+			"add_dependencies",
+			"add_definitions",
+			"configure_shared_library_build_settings",
+			"include",
+			"find_package",
+			"include_directories",
+			"gencpp_append_include_dirs",
+			"_generate_msg_cpp",
+			"generate_messages"
+		],
+		"files" : 
+		[
+			"tuw_msgs/tuw_geometry_msgs/CMakeLists.txt",
+			"/opt/ros/noetic/share/catkin/cmake/custom_install.cmake",
+			"/opt/ros/noetic/share/catkin/cmake/tools/libraries.cmake",
+			"/opt/ros/noetic/share/catkin/cmake/all.cmake",
+			"/opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/noetic/share/gencpp/cmake/gencpp-extras.cmake",
+			"/home/nazha/sim_ws/build/tuw_msgs/tuw_geometry_msgs/cmake/tuw_geometry_msgs-genmsg.cmake",
+			"/opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 124,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 162,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 133,
+				"parent" : 0
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 58,
+				"parent" : 5
+			},
+			{
+				"file" : 4,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 20,
+				"parent" : 7
+			},
+			{
+				"file" : 3,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 174,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 18,
+				"parent" : 10
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 8,
+				"line" : 307,
+				"parent" : 12
+			},
+			{
+				"file" : 7,
+				"parent" : 13
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 51,
+				"parent" : 14
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 46,
+				"parent" : 15
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 63,
+				"parent" : 16
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 118,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fPIC  "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "ROS_BUILD_SHARED_LIBS=1"
+				},
+				{
+					"define" : "tuw_geometry_msgs_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 17,
+					"path" : "/home/nazha/sim_ws/devel/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/opt/ros/noetic/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/home/nazha/sim_ws/src/tuw_msgs/tuw_geometry_msgs/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "geometry_msgs_generate_messages_nodejs::@6ced36a595a60bf5dbae"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "geometry_msgs_generate_messages_py::@6ced36a595a60bf5dbae"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "geometry_msgs_generate_messages_lisp::@6ced36a595a60bf5dbae"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "std_msgs_generate_messages_eus::@6ced36a595a60bf5dbae"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "std_msgs_generate_messages_py::@6ced36a595a60bf5dbae"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "std_msgs_generate_messages_lisp::@6ced36a595a60bf5dbae"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "std_msgs_generate_messages_cpp::@6ced36a595a60bf5dbae"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "geometry_msgs_generate_messages_cpp::@6ced36a595a60bf5dbae"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "geometry_msgs_generate_messages_eus::@6ced36a595a60bf5dbae"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "std_msgs_generate_messages_nodejs::@6ced36a595a60bf5dbae"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "_catkin_empty_exported_target::@d9ba91366fefec7c89ac"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "tuw_geometry_msgs_generate_messages_py::@594520bb3ed2ff528c16"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "tuw_geometry_msgs_generate_messages_nodejs::@594520bb3ed2ff528c16"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "tuw_geometry_msgs_generate_messages_cpp::@594520bb3ed2ff528c16"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "tuw_geometry_msgs_generate_messages_lisp::@594520bb3ed2ff528c16"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "tuw_geometry_msgs_generate_messages_eus::@594520bb3ed2ff528c16"
+		}
+	],
+	"id" : "tuw_geometry_msgs::@594520bb3ed2ff528c16",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 3,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/nazha/sim_ws/install"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/opt/ros/noetic/lib:",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/noetic/lib/libroscpp_serialization.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/noetic/lib/librostime.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/noetic/lib/libcpp_common.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "tuw_geometry_msgs",
+	"nameOnDisk" : "libtuw_geometry_msgs.so",
+	"paths" : 
+	{
+		"build" : "tuw_msgs/tuw_geometry_msgs",
+		"source" : "tuw_msgs/tuw_geometry_msgs"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "tuw_msgs/tuw_geometry_msgs/src/pose.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "tuw_msgs/tuw_geometry_msgs/src/pose_stamped.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "tuw_msgs/tuw_geometry_msgs/src/point.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

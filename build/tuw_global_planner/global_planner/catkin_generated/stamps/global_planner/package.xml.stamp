@@ -1,0 +1,42 @@
+<package>
+  <name>global_planner</name>
+  <version>0.0.0</version>
+  <description>
+    This pkg implements a voronoi planner to route a single vehicle along a generated voronoi graph.  The voronoi graph is generated based on the received map message. 
+    Thanks goes to the ROS move_base comunity because this pkg holds a copy of the global_planner used in move_base https://github.com/ros-planning/navigation.git and extends it with a A-Star Planner with different Heuristics and a embedded Voronoi Graph Generator to replace the map with it.
+  </description>
+  <maintainer email="markus.bader@tuwien.ac.at">Markus Bader</maintainer>
+  <author email="benjamin.binder@tuwien.ac.at">Benjamin Binder</author>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>angles</build_depend>
+  <build_depend>costmap_2d</build_depend>
+  <build_depend>dynamic_reconfigure</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>nav_core</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>navfn</build_depend>
+  <build_depend>pluginlib</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>tf2</build_depend>
+  <build_depend>tf2_ros</build_depend>
+
+  <run_depend>costmap_2d</run_depend>
+  <run_depend>dynamic_reconfigure</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>nav_core</run_depend>
+  <run_depend>nav_msgs</run_depend>
+  <run_depend>navfn</run_depend>
+  <run_depend>pluginlib</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>tf2</run_depend>
+  <run_depend>tf2_ros</run_depend>
+  <export>
+      <nav_core plugin="${prefix}/bgp_plugin.xml" />
+  </export>
+
+</package>

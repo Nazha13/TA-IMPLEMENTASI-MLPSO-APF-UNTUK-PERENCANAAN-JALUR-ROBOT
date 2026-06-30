@@ -1,0 +1,21 @@
+Scenario,Trial,Status,Duration (s),Min Clearance (m),Path Length (m),Avg CPU (%),Peak RAM (MB)
+Scen2_DWA,1,Failed_Timeout,90.00,0.472,33.43,13.5,42.1
+Scen2_DWA,2,Failed_Timeout,90.00,0.474,33.43,13.7,48.0
+Scen2_DWA,3,Failed_Timeout,90.00,0.302,18.76,11.7,48.3
+Scen2_DWA,4,Failed_Timeout,90.00,0.427,33.45,13.4,51.3
+Scen2_DWA,5,Failed_Timeout,90.00,0.475,32.98,13.5,51.7
+Scen2_DWA,6,Failed_Timeout,90.00,0.220,18.93,11.4,51.7
+Scen2_DWA,7,Failed_Timeout,90.00,0.259,33.31,14.1,51.7
+Scen2_DWA,8,Failed_Timeout,90.00,0.490,33.27,13.6,51.7
+Scen2_DWA,9,Failed_Timeout,90.00,0.472,33.42,13.6,53.3
+Scen2_DWA,10,Failed_Timeout,90.00,0.220,29.86,13.2,53.7
+Scen2_DWA,11,Failed_Timeout,90.00,0.462,33.38,13.9,53.7
+Scen2_DWA,12,Failed_Timeout,90.00,0.226,30.15,12.8,53.7
+Scen2_DWA,13,Failed_Timeout,90.00,0.433,33.12,14.0,53.7
+Scen2_DWA,14,Failed_Timeout,90.00,0.298,18.75,11.5,53.9
+Scen2_DWA,15,Failed_Timeout,90.00,0.480,33.28,13.7,53.7
+Scen2_DWA,16,Failed_Timeout,90.00,0.441,33.42,13.6,54.8
+Scen2_DWA,17,Failed_Timeout,90.00,0.479,33.32,13.8,54.8
+Scen2_DWA,18,Failed_Timeout,90.00,0.472,33.33,13.9,54.8
+Scen2_DWA,19,Failed_Timeout,90.00,0.450,33.35,13.8,54.8
+Scen2_DWA,20,Failed_Timeout,90.00,0.481,33.37,13.7,54.8
