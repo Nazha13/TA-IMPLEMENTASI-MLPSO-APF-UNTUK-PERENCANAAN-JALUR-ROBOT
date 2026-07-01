@@ -177,8 +177,8 @@ class MLPSO : public nav_core::BaseGlobalPlanner {
 
         // Fungsi untuk menyatukan titik awal dan tujuan ke dalam graf
         void mergeSGG(std::vector<Node>& current_graph){
-            std::vector<int> start_candidates = topKNodes(current_graph, real_start, 8); 
-            std::vector<int> goal_candidates = topKNodes(current_graph, real_goal, 8);
+            std::vector<int> start_candidates = topKNodes(current_graph, real_start, 5); 
+            std::vector<int> goal_candidates = topKNodes(current_graph, real_goal, 5);
 
             Node startNode;
             startNode.id = current_graph.size();

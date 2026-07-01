@@ -14,22 +14,24 @@ from gazebo_msgs.msg import ModelState
 from gazebo_msgs.srv import SetModelState
 from tf.transformations import quaternion_from_euler
 from std_srvs.srv import Empty
+import subprocess
+import signal
 
 # Konfigurasi pengujian
-NUM_TRIALS = 20
+NUM_TRIALS = 10
 CSV_FILENAME = "hasil_pengujian_metrik.csv"
 
 # Data start dan goal pose
 ROBOT_NAME = "CAD_ASR_WITH_OMNI"
-START_X = 1.566994468493967
-START_Y = -1.2907059555081593
+START_X = 1.54360 #1.566994468493967
+START_Y = -1.32523 #-1.2907059555081593
 START_Z = 0.05
 START_ROLL = 1.5708  
 START_PITCH = 0.0
 START_YAW = 0.0 
 
-GOAL_X = 8.5
-GOAL_Y = 5.5
+GOAL_X = 5.89107 #8.5
+GOAL_Y = 3.23847 #5.5
 GOAL_W = 1.0 
 
 # Konfigurasi robot
@@ -44,6 +46,25 @@ replan_count = 0  # Counter untuk deteksi replanning
 # Variabel Global untuk Resource Monitoring
 cpu_records = []
 ram_records = []
+
+def start_bag_recording(filename):
+    """Merekam via subprocess (sama seperti menjalankan rosbag record di terminal)"""
+    os.makedirs("Sim_Trials", exist_ok=True)
+    bag_path = f"Sim_Trials/{filename}.bag"
+    
+    # Jalankan rosbag record untuk /cmd_vel
+    cmd = ["rosbag", "record", "-O", bag_path, "/cmd_vel", "/amcl_pose", "/pso_path"]
+    proc = subprocess.Popen(cmd)
+    
+    # Beri waktu 1 detik agar node recorder beneran nyala sebelum robot jalan
+    rospy.sleep(1.0) 
+    return proc
+
+def stop_bag_recording(proc):
+    """Matikan rekaman dengan aman (kirim Ctrl+C)"""
+    if proc:
+        proc.send_signal(signal.SIGINT)
+        proc.wait()
 
 def resource_monitor():
     """Berjalan di background thread untuk mencatat beban CPU dan RAM KHUSUS node move_base"""
@@ -155,7 +176,7 @@ def send_goal_and_track(client, x, y, w, trial_name):
     min_clearance = float('inf')
     cpu_records = []
     ram_records = []
-    replan_count = 0  # Reset replan counter ke 0 setiap trial baru
+    replan_count = 0  
     is_moving = True
     
     monitor_thread = threading.Thread(target=resource_monitor)
@@ -169,12 +190,19 @@ def send_goal_and_track(client, x, y, w, trial_name):
     goal.target_pose.pose.orientation.w = w
 
     rospy.loginfo("Mengirim goal ke move_base...")
+
+    # 1. MULAI REKAMAN (otomatis jalan di background)
+    bag_process = start_bag_recording(trial_name)
+
     start_time = rospy.Time.now().to_sec()
     client.send_goal(goal)
     
     # Batasi waktu tunggu maksimal 90.0 detik
     finished_within_time = client.wait_for_result(rospy.Duration(90.0)) 
     end_time = rospy.Time.now().to_sec()
+
+    # 2. BERHENTI REKAMAN DENGAN AMAN
+    stop_bag_recording(bag_process)
     
     is_moving = False 
     monitor_thread.join()

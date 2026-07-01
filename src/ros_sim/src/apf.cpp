@@ -39,12 +39,12 @@ class APFPlanner : public nav_core::BaseLocalPlanner {
         // Parameter tambahan untuk kontrol
         double lookahead_dist_ = 0.6;
         double scan_radius_ = 1.0; 
-        double max_vel_ = 0.4;
+        double max_vel_ = 0.2;
         double min_vel_ = 0.02;
         double decel_rad_ = 0.5;
         double k_theta_ = 2.0;
-        double max_angular_vel_ = 1.0;
-        double min_angular_vel_ = -1.0;
+        double max_angular_vel_ = 0.4;
+        double min_angular_vel_ = -0.4;
         double xy_goal_tolerance_ = 0.25;
 	    double robot_radius_ = 0.3;
 	    double vp_radius_ = 0.3;

@@ -4,7 +4,7 @@
   <arg name="gui" default="true"/>
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find asr_navigation)/worlds/grit_1_scenario_2"/>
+    <arg name="world_name" value="$(find asr_navigation)/worlds/grit_1_sim_2"/>
     <arg name="paused" value="false"/>
     <arg name="use_sim_time" value="true"/>
     <arg name="gui" value="$(arg gui)"/>
