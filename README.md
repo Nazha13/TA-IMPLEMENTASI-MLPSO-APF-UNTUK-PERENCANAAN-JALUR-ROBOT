@@ -15,7 +15,7 @@ All C++ source files (`.cpp`) for both planners are located in:
 To use these planners in a new ROS package, you must copy and configure the following files:
 
 ### 1. Copy Source Files & XML Plugin
-*   Copy all `.cpp` and files from `src/ros_sim/src/` into your new package.
+*   Copy all `.cpp` files from `src/ros_sim/src/` into your new package.
 *   Copy the plugin `.xml` registration file from the package root directory. This file is required so `move_base` can detect and load the custom planners.
 
 ### 2. Update `package.xml`
