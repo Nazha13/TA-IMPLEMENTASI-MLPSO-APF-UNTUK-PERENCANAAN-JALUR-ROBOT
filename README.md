@@ -27,7 +27,7 @@ Add the standard ROS navigation dependencies along with the specific multi-robot
 <exec_depend>tuw_multi_robot</exec_depend>
 ```
 
-### Update `CMakeLists.txt`
+### 3. Update `CMakeLists.txt`
 Include `tuw_multi_robot` in your catkin components list to link the libraries properly during build:
 ```cmake
 find_package(catkin REQUIRED COMPONENTS
